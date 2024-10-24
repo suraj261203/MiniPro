@@ -1,0 +1,39 @@
+
+.comments-title {
+    text-align: center;
+    font-size: 42px;
+    font-style: italic;
+    color: whitesmoke;
+    padding: 25px 25px;
+    text-decoration: underline goldenrod;
+
+}
+
+.comments-container {
+    width: 90vw ;   
+    border-radius: 65px;
+    border: 4px goldenrod solid;    
+    background-color: black;
+
+}
+
+.comments-container h4{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+ .p-guest {
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+.p-guest a{
+    color: goldenrod;
+    text-decoration: none;
+}
+
+

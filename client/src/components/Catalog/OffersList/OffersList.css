@@ -1,0 +1,18 @@
+.offers {
+    font-size: 5rem; 
+    font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2px solid gold;
+}
+
+.offersList-noFound {
+    font-size: 62px;
+    color: goldenrod;
+    font-style: italic;
+    text-align: center;
+    width: 100vw;
+    height: 45vh;
+    font-weight: 50;
+    padding-top: 120px;
+}

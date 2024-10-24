@@ -1,0 +1,182 @@
+.offer-list {
+    height: 75vh;
+    width: 30%;
+    color: #fff;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 10px;
+   
+    padding: 0px;
+    border-radius: 120px solid gold;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 3px solid goldenrod;
+    border-radius: 60px;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.offer-image { 
+    width: 100%;
+    height: 70%;
+    border-radius: 54px 54px 0 0;
+    border: 1px solid goldenrod;
+}
+
+.offer-image img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 54px 54px 0 0;
+
+}
+
+.offer-title {
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline goldenrod;
+    padding-top: 10px;
+}
+
+.offer-year {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.offer-year span {
+    color: bisque;
+}
+
+.offer-price {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: red;
+    padding-top: 10px
+}
+
+.offer-price span {
+    color: bisque;
+}
+
+.read-more-btn {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 1.0s;
+    background-color: black;
+    border-radius: 60px;
+    border: 2px solid goldenrod;
+    padding: 2px 10px;
+    margin-top: 15px
+}
+
+.read-more-btn:hover {
+    color: red
+}
+
+/* RESPONSIVE */
+
+@media all and (max-width: 1060px) {
+    .offer-title {
+        font-size: 20px;
+    }
+
+    .read-more-btn {
+        font-size: 18px;
+        padding: 1px 10px;
+    }
+}
+
+@media all and (max-width: 880px) {
+    .offer-list {
+        width: 40%;
+        height: 55vh;
+        margin-bottom: 30px;
+        border: 2px solid goldenrod;
+    }
+
+    .offer-image {
+        width: 100%;
+        height: 70%;
+    }
+
+    .offer-title {
+        padding-top: 5px;
+        font-size: 18px;
+    }
+
+   .offer-year{
+    font-size: 16px;
+    padding-top: 5px;
+   }
+
+   .offer-price {
+    font-size: 16px;
+    padding-top: 5px;
+   }
+
+   .read-more-btn {
+     font-size: 14px;
+     padding: 2px 5px;
+     margin-top: 10px;
+
+   }
+}
+
+@media all and (max-width: 880px) {
+    .offer-title {
+        padding-top: 5px;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 530px) {
+    .offer-list {
+        width: 47%;
+        height: 44vh;
+        margin-bottom: 10px;
+        border: 2px solid goldenrod;
+    }
+
+    .offer-image {
+        width: 100%;
+        height: 60%;
+    }
+
+    .offer-title {
+        padding-top: 5px;
+        font-size: 16px;
+    }
+
+   .offer-year{
+    font-size: 14px;
+    padding-top: 5px;
+   }
+
+   .offer-price {
+    font-size: 14px;
+    padding-top: 5px;
+   }
+
+   .read-more-btn {
+     font-size: 12px;
+     padding: 2px 5px;
+     margin-top: 10px;
+
+   }
+}
+
+@media all and (max-width: 400px) {
+    .offer-title {
+        font-size: 16px;
+    }
+
+    .read-more-btn {    
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    
+}

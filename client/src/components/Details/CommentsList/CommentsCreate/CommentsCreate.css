@@ -1,0 +1,70 @@
+.comment-create-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    align-items: center;
+
+}
+
+.comment-create-container h4 {
+    margin: 30px;
+}
+
+.comment-create-container textarea {
+    width: 60vw;
+    height: 20vh;
+    margin-right: 100px;
+    padding: 30px;
+}
+
+.comment-create-container input {
+   display: block;
+   padding: 15px 30px;
+   border-radius: 60px;
+   margin-top: 20px;
+   font-size: 24px;
+   background-color: transparent;
+   color: white;
+   border: 2px solid goldenrod;
+   margin-bottom: 20px;
+}
+
+.comment-create-container input:hover {
+    background-color: goldenrod;
+    color: black;
+    transition: 1.0s;
+}
+
+.comment-error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+ 
+}
+
+/* RESPONSIVE */
+
+@media all and (max-width: 520px){
+    .comments-title {
+        font-size: 32px;
+    }
+
+    .comment-create-container h4 {
+        margin: 10px;
+    }
+ 
+    .comment-create-container textarea {
+        font-size: 16px;
+        margin: 0 auto;
+        
+    }
+    
+    .commnets-error {
+        font-size: 14px;
+    }
+
+    .comment-create-container input {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+}

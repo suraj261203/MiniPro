@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.8;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    color: goldenrod;
+    font-style: italic;
+    margin: 10px 100px 20px 50px;
+}
+
+header h1:hover {
+    color: goldenrod;
+    border-bottom: 3px solid;
+
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+header nav ul li {
+    text-align: right;
+    margin-right: 80px;
+}
+
+.title {
+    color: goldenrod
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+   
+}
+
+a:hover {
+   color: goldenrod;
+   border-bottom: 3px solid;
+}
+
+
+/* RESPONSIVE */
+@media all and (max-width: 1500px) {
+    header h1 {
+        font-size: 32px;
+    }
+    header nav ul li {
+        margin-right: 60px;
+    }
+
+    header nav ul li a {
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width: 1250px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header nav ul li {
+        margin-right: 20px;
+    }
+
+    header nav ul li a {
+        font-size: 18px;
+       
+    }
+}
+
+@media all and (max-width: 880px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 24px;
+        margin: 0 auto;
+        padding: 10px 0 10px 0;
+    }
+
+    header nav ul li {
+        margin: 0 auto;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    header nav ul li a {
+        font-size: 18px;
+    }
+
+ 
+}

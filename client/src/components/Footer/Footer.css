@@ -1,0 +1,57 @@
+.footer-container {
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    color: white;
+    padding-top: 15px;
+    text-decoration: none;
+
+}
+
+.information li {
+    padding-top: 4px;
+    margin-bottom:  1px;
+}
+
+.follow p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.follow li {
+    text-align: center;
+    display: inline;
+    font-size: 24px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-container ul li a {
+    text-decoration: none;
+    color: goldenrod;
+    padding-bottom: 8px;
+}
+
+.copy-rigth {
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+}
+
+.copy-rigth span{
+    color: goldenrod;
+}
+
+/* RESPONSIVE */
+
+@media all and (max-width: 860px) {
+    .footer-container {
+        padding-bottom: 15px;
+    }
+
+    .follow li {   
+        font-size: 20px;
+    
+    }
+}

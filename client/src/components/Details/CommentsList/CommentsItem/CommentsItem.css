@@ -1,0 +1,127 @@
+.comments-li{
+    margin: 10px;
+    border: 2px solid goldenrod;
+    padding: 20px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.comments-email {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline goldenrod 2px;
+}
+
+.comments-text {
+    color: bisque;
+    font-size: 18px;
+    margin: 5px;
+    text-align: center;
+    flex-wrap: wrap;
+ 
+}
+
+.comments-buttons {
+    display: inline-block;      
+}
+
+.comments-buttons button {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: 2px solid goldenrod;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+.comments-buttons button:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.commnets-created{
+    margin-top: 5px;
+    color: white;
+}
+
+.comments-div {
+ 
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.comment-edit-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+   
+}
+
+.comment-edit-form-submit {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid goldenrod;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-edit-form-submit:hover {
+    color: black;
+    background-color: goldenrod;
+}
+
+.comment-edit-form-text{
+   padding: 30px 10px 20px 20px;
+   font-size: 20px;
+   width: 80%;
+   height: 20vh;
+   justify-self: center;
+}
+
+.comment-error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* RESPONSIVE */
+
+@media all and (max-width: 520px) {
+    .comments-text {
+        font-size: 16px;
+    }
+
+    .commnets-created {
+        font-size: 12px;
+    }
+
+    .comment-edit-form {
+        margin: 0 auto;
+    }
+
+    .comment-edit-form-text {
+        margin: 0 auto;
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .comment-error {
+        font-size: 14px;
+    }
+}
