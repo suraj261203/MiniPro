@@ -89,11 +89,11 @@ export const Register = () => {
         <h1>Register</h1>
 
         <label className="register-label" htmlFor="email">Email:</label>
-        <input onChange={onChange} value={userData.email} onBlur={emailValidation} className="input-field" type="email"id="email" name="email" placeholder="peter@email.com"/>
+        <input onChange={onChange} value={userData.email} onBlur={emailValidation} className="input-field" type="email"id="email" name="email" placeholder="example@email.com"/>
         {errors.email && <p className="p-error" style={{color: 'red'}}>{errors.email}</p>}
 
         <label className="register-label" htmlFor="fullName">Full Name:</label>
-        <input onChange={onChange} value={userData.fullName} onBlur={lengthValidation} className="input-field" type="fullName" name="fullName" placeholder="Peter Johnson" />
+        <input onChange={onChange} value={userData.fullName} onBlur={lengthValidation} className="input-field" type="fullName" name="fullName" placeholder="your full name" />
         {errors.fullName && <p className="p-error" style={{color: 'red'}} >{errors.fullName}</p>}
 
         <label className="register-label" htmlFor="phone">Phone Number:</label>
